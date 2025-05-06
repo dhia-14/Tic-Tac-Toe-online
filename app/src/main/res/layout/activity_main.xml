@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:background="#B8D9DC"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#137986"
+        android:text="@string/app_name"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8DCEE3"
+        android:text="Play Offline"
+        android:id="@+id/btn_offline"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textColor="#137986"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Game Online"
+        android:backgroundTint="#8DCEE3"
+        android:id="@+id/btn_create_online"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textColor="#137986"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:id="@+id/game_id_input"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:hint="Enter Game ID"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join the Game"
+        android:id="@+id/btn_join_game"
+        android:backgroundTint="#8DCEE3"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+</LinearLayout>
